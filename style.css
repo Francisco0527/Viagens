@@ -82,3 +82,13 @@ footer {
   right: 0;
   bottom: 0;
 }
+
+@media (max-width: 900px) {
+  .tablinks {
+    font-size: 14px;
+  }
+  .tabcontent {
+    width: 80%;
+    font-size: 14px;
+  }
+}
