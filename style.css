@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 20px;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: #ccc;
+}
+
+.tabs {
+  color: #ccc;
+  overflow: hidden;
+  background-color: #f1f1f1 1;
+  z-index: 999;
+}
+
+.tablinks {
+  color: #ccc;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablinks:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+.tablinks.active {
+  color: black;
+  background-color: #ccc;
+}
+
+.tabcontent {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top: none;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.tabcontent h2 {
+  color: #fff;
+  margin-top: 0;
+}
+.tabcontent h3 {
+  color: #fff;
+  margin-top: 0;
+}
+.tabcontent a {
+  color: #ffffff;
+  margin-top: 0;
+}
+.tabcontent p {
+  color: #ccc;
+  margin-top: 0;
+}
+footer {
+  color: white;
+  z-index: 99;
+  text-align: right;
+  padding: 20px 0;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
