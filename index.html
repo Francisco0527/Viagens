@@ -11,10 +11,13 @@
 <body>
     <h1>Lugares</h1>
 
-    <div class="tabs">
-        <button class="tablinks" onclick="openCity(event, 'Paraty')" id="defaultOpen">Paraty</button>
-        <button class="tablinks" onclick="openCity(event, 'Campos')">Campos do Jordão</button>
-        <button class="tablinks" onclick="openCity(event, 'Gramado')">Gramado</button>
+    <div class="dropdown">
+        <select id="cityMenu" onchange="selectCity()">
+            <option value="Cidades" selected>Cidades</option>
+            <option value="Paraty">Paraty</option>
+            <option value="Campos">Campos do Jordão</option>
+            <option value="Gramado">Gramado</option>
+        </select>
     </div>
 
     <div id="Paraty" class="tabcontent">

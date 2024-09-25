@@ -83,6 +83,25 @@ footer {
   bottom: 0;
 }
 
+.dropdown select {
+  background-color: inherit;
+  color: #ccc;
+  padding: 10px;
+  font-size: 30px;
+  margin: 20px auto;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+.dropdown select option {
+  background-color: none;
+  color: grey;
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px auto;
+  display: block;
+}
+
 @media (max-width: 900px) {
   .tablinks {
     font-size: 14px;
