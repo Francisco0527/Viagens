@@ -11,12 +11,20 @@ body {
   background-attachment: fixed;
   flex-direction: column;
 }
+
+.header {
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+  justify-content: flex-start; /* Alinha horizontalmente à esquerda */
+}
 img {
   height: 48px;
+  margin: 10px;
 }
 h1 {
   text-align: center;
   color: #ccc;
+  margin: 0;
 }
 
 .tabs {
