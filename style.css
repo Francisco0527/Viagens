@@ -50,13 +50,12 @@ h1 {
 .tabcontent {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 20px;
   width: 60%;
   margin: auto;
   z-index: 1;
   position: relative;
   overflow-y: auto;
-  max-height: calc(75vh); /* Ajustar conforme necessário */
+  max-height: calc(90vh - 200px);
 }
 
 .tabcontent h2 {
@@ -106,6 +105,30 @@ footer {
   font-size: 16px;
   margin: 20px auto;
   display: block;
+}
+
+/* Estilizando a barra de rolagem para navegadores baseados em WebKit */
+.tabcontent::-webkit-scrollbar {
+  width: 6px; /* Largura da barra de rolagem */
+}
+
+.tabcontent::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Cor do fundo da barra de rolagem */
+}
+
+.tabcontent::-webkit-scrollbar-thumb {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Cor do "polegar" (a parte que se move) */
+  border-radius: 10px; /* Cantos arredondados para suavidade */
+  border: 2px solid rgba(0, 0, 0, 0); /* Um leve contorno para dar um efeito de profundidade */
+}
+
+.tabcontent::-webkit-scrollbar-thumb:hover {
+  background-color: #ffe3b3;
 }
 
 @media (max-width: 900px) {
