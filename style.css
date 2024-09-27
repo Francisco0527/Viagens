@@ -1,3 +1,7 @@
+html {
+  height: 100vh;
+  overflow: hidden;
+}
 body {
   font-family: Arial, sans-serif;
   background-image: url(./assets/background.jpg);
@@ -5,12 +9,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
-  padding: 20px;
   flex-direction: column;
 }
 img {
-  height: 36px;
+  height: 48px;
 }
 h1 {
   text-align: center;
@@ -48,13 +50,13 @@ h1 {
 .tabcontent {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
-  border-top: none;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 60%;
   margin: auto;
   z-index: 1;
   position: relative;
-  padding-bottom: 50px;
+  overflow-y: auto;
+  max-height: calc(75vh); /* Ajustar conforme necessário */
 }
 
 .tabcontent h2 {
