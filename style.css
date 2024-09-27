@@ -63,7 +63,7 @@ h1 {
   z-index: 1;
   position: relative;
   overflow-y: auto;
-  max-height: calc(90vh - 200px);
+  max-height: calc(95vh - 200px);
 }
 
 .tabcontent h2 {
@@ -101,7 +101,7 @@ footer {
   color: #ccc;
   padding: 10px;
   font-size: 30px;
-  margin: 20px auto;
+  margin: 5px auto;
   display: block;
   border: none;
   cursor: pointer;
